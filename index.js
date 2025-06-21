@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 5000;
 // CORS configuration for production
 const corsOptions = {
   origin: [
-    'https://your-frontend-domain.vercel.app', // Replace with your actual frontend domain
+    'https://our-website-fe.vercel.app', // Deployed frontend domain
     'http://localhost:3000', // For local development
     'http://localhost:3001'  // Alternative local port
   ],
